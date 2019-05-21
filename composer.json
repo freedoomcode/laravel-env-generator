@@ -1,0 +1,21 @@
+{
+    "name": "helingfeng/laravel-env-generator",
+    "authors": [
+        {
+            "name": "helingfeng",
+            "email": "857190327@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AutoGenerator\\": "/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AutoGenerator\\Providers\\BuilderServiceProvider"
+            ]
+        }
+    }
+}
